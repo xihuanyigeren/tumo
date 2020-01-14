@@ -10,7 +10,7 @@ pool:
 
 variables:
   tagName: 'latest'
-  imageName: '$(dockerId)/activityreservation:$(tagName)'
+  imageName: 'activityreservation:$(tagName)'
 
 steps:
 
