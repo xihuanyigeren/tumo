@@ -10,11 +10,11 @@ pool:
 
 variables:
   tagName: 'latest'
-  imageName: '/activityreservation:1.0.0'
+  imageName: 'activityreservation'
 
 steps:
 
-- script: docker build -f Dockerfile -t $(imageName) .
+- script: docker build -f Dockerfile -t v1 .
   displayName: 'Docker build Script'
 
 
