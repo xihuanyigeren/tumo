@@ -10,7 +10,7 @@ pool:
 
 variables:
   tagName: 'latest'
-  imageName: '/activityreservation'
+  imageName: '/activityreservation:1.0.0'
 
 steps:
 
