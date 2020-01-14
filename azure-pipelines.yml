@@ -14,7 +14,6 @@ variables:
 
 steps:
 
-- script: docker build -f Dockerfile -t v1 .
-  displayName: 'Docker build Script'
-
+- script: |
+    docker build -f Dockerfile -t $(imageName) .
 
