@@ -25,7 +25,7 @@ steps:
 - task: SSH@0
   displayName: 'Run shell inline on remote machine'
   inputs:
-    sshEndpoint: 'weihanli-vm'
+    sshEndpoint: '阿里云'
     runOptions: inline
 
     inline: |
